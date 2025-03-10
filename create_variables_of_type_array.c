@@ -1,0 +1,1 @@
+int tableau[4];
