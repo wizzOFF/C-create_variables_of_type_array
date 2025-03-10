@@ -1,0 +1,1 @@
+# C-create_variables_of_type_array
