@@ -9,5 +9,8 @@ tableau[3] = 8;
 /*
 printf("%d", tableau);
 */
-
+/*
 printf("%d", tableau[0]);
+*/
+
+printf("%d", *tableau);
