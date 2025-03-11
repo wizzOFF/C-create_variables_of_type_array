@@ -12,5 +12,9 @@ printf("%d", tableau);
 /*
 printf("%d", tableau[0]);
 */
-
+/*
 printf("%d", *tableau);
+*/
+
+tableau[1] // Renvoie la valeur de la seconde case (la première case étant 0)
+*(tableau + 1) // Identique : renvoie la valeur contenue dans la seconde case
