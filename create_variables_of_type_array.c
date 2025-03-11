@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
     return 0;
 }
 */
-
+/*
 void affiche(int *tableau, int tailleTableau);
  
 int main(int argc, char *argv[])
@@ -91,4 +91,15 @@ void affiche(int *tableau, int tailleTableau)
     {
         printf("%d\n", tableau[i]);
     }
+}
+*/
+
+int sommeTableau(int tableau[], int tailleTableau)
+{
+    int somme = 0;
+    for(int i = 0; i < tailleTableau; i++)
+    {
+        somme += tableau[i];
+    }
+    return somme;
 }
